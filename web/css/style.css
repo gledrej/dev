@@ -1,0 +1,243 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+.forma_login{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+
+.login_content button{
+    font-size: 13px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.login_content {
+    margin: 0 auto;
+    padding: 25px 0 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    min-width: 280px;
+}
+
+.login_content form input[type="text"], .login_content form input[type="email"], .login_content form input[type="password"] {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -moz-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -ms-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -o-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0, 0, 0, 0.08) inset;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border: 1px solid #c8c8c8;
+    color: #777;
+    margin: 0 0 20px;
+    width: 100%;
+}
+.form-control {
+    border-radius: 0;
+    width: 100%;
+}
+
+
+.separator_icon {
+    width: 100%;
+}
+.separator_icon img {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.separator_text {
+    float: left;
+    width: 75%;
+    line-height: 86px;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.form-control_div{
+    display: flex;
+}
+
+
+.fotorama__wrap{
+    margin: 0 auto;
+}
+
+.form-control_div input{
+    height: 35px;
+}
+
+.reset_pass {
+    margin-top: 13px !important;
+    margin-right: 39px;
+    float: right;
+}
+
+.form_signup_input .form-group{
+    width: 100%;
+}
+
+.manifestation_index_title h2{
+    text-align: center;
+}
+
+.manifestation_index_content_image img{
+    width: 100%;
+}
+
+.manifestation-view img{
+    width: 200px;
+}
+
+.manifestation-index img{
+    width: 200px;
+}
+
+.field-manifestation-photo img{
+    width: 100%;
+}
+.krajee-default.file-preview-frame .kv-file-content {
+    width: 100%;
+    display: table;
+}
+
+.file-preview .file-preview-frame{
+    width: -webkit-fill-available;
+}
+
+.field-manifestation-title{
+
+}
+
+
+
+.submit_admin_image img{
+    max-width: 100% !important;
+}
