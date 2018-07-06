@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jul 06, 2018 at 03:28 PM
+-- Generation Time: Jul 06, 2018 at 03:52 PM
 -- Server version: 5.5.60-0+deb8u1-log
 -- PHP Version: 7.2.5
 
@@ -241,7 +241,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 
 INSERT INTO `user` (`id`, `username`, `auth_key`, `password_hash`, `password_reset_token`, `email`, `status`, `created_at`, `updated_at`) VALUES
 (3, 'Admin', 'DeZt9GzDV6jSEls0VZwuW5Ln8ZX3be-6', '$2y$10$y.tKHAZWrzeGZwyw/iW8K.9Ou19VJSsrJ.m7zaLdn5f3kd6FRKJQW', NULL, 'admin@gmail.com', 10, 1505276337, 1505276337),
-(10, 'test', 'itCxYo0jkpKl2bOslqB6Yz0wZkWZ0R_d', '$2y$13$MrKnsuBA4re8rhRc6wrZ6O0tc9uGooRbT1JTEL82aZM4sGJnl/fVS', NULL, 'test@test.ua', 10, 1528977219, 1528977219);
+(10, 'test', 'DeZt9GzDV6jSEls0VZwuW5Ln8ZX3be-6', '$2y$10$y.tKHAZWrzeGZwyw/iW8K.9Ou19VJSsrJ.m7zaLdn5f3kd6FRKJQW', NULL, 'test@test.ua', 10, 1528977219, 1528977219);
 
 --
 -- Indexes for dumped tables
